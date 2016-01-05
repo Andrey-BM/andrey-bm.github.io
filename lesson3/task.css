@@ -1,0 +1,72 @@
+/*-----------------------------------*/
+
+h1 {
+    text-align: right;
+    color: #ff9000;
+}
+
+p {
+    font-size: 20px;
+}
+
+p:first-letter {
+    font-size: 200%;
+    color: red;
+    
+}
+
+em {
+    color: white;
+    background-color: #00b230;
+}
+
+/*-----------------------------------*/
+
+#allotment h2 {
+    color: #ff9000;
+}
+
+#warehouse h2 {
+    color: #0000ff;
+}
+
+li {
+    font-weight: bold;
+}
+
+ol li {
+    font-weight: normal;
+}
+
+.fruits-list {
+    color: #585858;
+}
+
+.vegetables-list li {
+    color: #ff0000;
+}
+
+/*-----------------------------------*/
+
+table {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr td:first-child {
+    text-align: left;
+    color: #ff9000;
+    background-color: #f8f8f8;
+}
+
+tbody tr td {
+    color: #fdfdfd;
+    background-color: #00b230;
+}
+
+
+
+
+
+
+

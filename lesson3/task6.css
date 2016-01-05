@@ -1,0 +1,89 @@
+input {
+    display: none;
+}
+span, input, label{
+    font-weight: bold;
+}
+
+/*----------------red------------------*/
+
+
+label[for="red"] {
+    color: red;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+input#red:checked ~ label[for=red] {
+    opacity: 0.3;
+}
+
+input#red:checked ~ .red {
+    display: none;
+}
+
+span.red{
+    color: #ffffff;
+    background-color: red;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+/*-----------------green----------------*/
+
+
+label[for="green"] {
+    color: green;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+input#green:checked ~ label[for=green] {
+    opacity: 0.3;
+}
+
+
+input#green:checked ~ .green {
+    display: none;
+}
+
+span.green{
+    color: #ffffff;
+    background-color: green;
+    border-radius: 15px;
+    padding: 5px ;
+}
+
+/*----------------blue------------------*/
+
+
+label[for="blue"] {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+input#blue:checked ~ label[for=blue] {
+    opacity: 0.3;
+}
+
+input#blue:checked ~ .blue {
+    display: none;
+}
+
+span.blue{
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
