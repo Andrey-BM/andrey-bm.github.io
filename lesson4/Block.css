@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 10px 4px 10px;
+    background-color: #9f5ddb; 
+}
+
+a:hover {
+    color:#a7a7a7;
+    background-color: #e6e6e6;
+}
+
+.menudiv {
+    margin: 10px auto;
+    background-color: #9f5ddb;
+    width: 100%;
+}
+
+.menudiv ul{
+    text-align: center;
+    list-style-type: none;
+    font-family: Economica;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+}
