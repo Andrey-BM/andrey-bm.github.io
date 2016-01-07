@@ -1,0 +1,28 @@
+.pager {
+        text-align: center;
+}
+
+.pager ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a.button {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial;
+    margin: 10px;
+    color: blueviolet;
+}
+a.number {
+    text-decoration: none;
+    color: blueviolet;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+a.number:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
