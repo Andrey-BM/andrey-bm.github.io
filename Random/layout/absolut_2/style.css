@@ -1,0 +1,48 @@
+*{padding: 0px; margin: 0px;}
+.menu{
+    background: #a8aae2;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.container {
+    background-color: antiquewhite;
+}
+
+
+.left {
+    background-color: #f0dbc1;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    width: 16%;
+    margin-left: 2%;
+}
+
+.center {
+    background-color: #ad9371;
+    min-height: 5em;
+    padding: 0% 26% 0% 18%;
+/*    position: static;  значееие по умолчанию  */
+}
+
+.right {
+    background-color: burlywood;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    width: 24%;
+    margin-right: 2%;
+    
+}
+
+.left,
+.center,
+.right {
+    
+}
+
+/*  средняя колонка с контентом должна быть длиннее чем правая илевая
+иначе ожи пройдут сквозь футер.  */
+
+

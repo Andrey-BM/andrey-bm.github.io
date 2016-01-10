@@ -1,0 +1,55 @@
+*{padding: 0px; margin: 0px;}
+
+
+div {
+    padding: 20px;
+/*    border-radius: 0px 0px 0px 0px ;*/
+}
+
+/*.menu{
+    background: #a8aae2;
+    height: 40px;
+    margin: 10px 0px;
+}*/
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+.left {
+    background-color: #d8cab9;
+    -webkit-flex: initial;
+            flex: initial;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.center {
+    background-color: #aa9375;
+    -webkit-flex: 2;
+            flex: 2;
+        border-radius: 10px 0px 0px 10px ;
+
+}
+
+.right {
+    background-color: #d8cab9;
+    -webkit-flex: 1;
+            flex: 1;
+    border-radius: 0px 10px 10px 0px ;
+
+}
+
+.none {
+    background-color: #e6cccc;
+    -webkit-flex: none;
+            flex: none;
+    width: 100px;  
+    border-radius: 10px;
+
+}
+
+
+

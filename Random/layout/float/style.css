@@ -1,0 +1,52 @@
+*{padding: 0px; margin: 0px;}
+.menu{
+    background: #a8aae2;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.container {
+    background-color: antiquewhite;
+    min-width: 600px;
+    min-height: 100px;
+    margin: 0px auto;
+    overflow: hidden;
+    
+}
+
+/*вмсто overflow: hidden;*/
+
+/*.container:after {
+    clear: both;
+    display: block;
+    content: '';
+}*/
+
+
+.left {
+    background-color: burlywood;
+    width: 22%;
+    margin-left: 2%;
+}
+
+.center {
+    background-color: burlywood;
+    width: 50%;
+    margin: 0px 3px 0px 3px;
+}
+
+.right {
+    background-color: burlywood;
+    width: 22%;
+    margin-right: 2%;
+}
+
+.left,
+.center,
+.right {
+    float: left;
+}
+
+
+
+

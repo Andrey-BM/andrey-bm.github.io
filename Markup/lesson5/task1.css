@@ -71,7 +71,7 @@
     display: block;
 }*/
 
-.menudiv a.travels:hover .btmenu{ 
+.menudiv a.travels:hover + .btmenu{ 
     display: block;
 }
 

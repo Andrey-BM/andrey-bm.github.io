@@ -1,0 +1,45 @@
+*{padding: 0px; margin: 0px;}
+.menu{
+    background: #a8aae2;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.container {
+    min-width: 700px;
+    white-space: nowrap;
+    background-color: antiquewhite;
+    text-align: center
+}
+
+
+.left {
+    background-color: burlywood;
+    height: 400px;
+    width: 20%;
+    margin-left: 2%;
+}
+
+.center {
+    background-color: burlywood;
+    height: 300px;
+    width: 30%;
+}
+
+.right {
+    background-color: burlywood;
+    height: 400px;
+    width: 30%;
+}
+
+.left,
+.center,
+.right {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
+
+
+
+
