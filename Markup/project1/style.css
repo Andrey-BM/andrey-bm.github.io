@@ -1,0 +1,429 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px auto;
+    width: 1400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+        /*HEADER*/
+
+.site_header {
+    margin: 0px auto;
+    background-color: #fff;
+    height: 115px;
+    width: 1000px;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 45px;
+    font-family: Arial;
+    color: #ee8129;
+}
+
+.logo span {
+    color: #3070a8;
+    font-weight: bold;
+}
+
+.main_menu {
+    position: absolute;
+    right: 0px;
+    top: 60px;
+}
+
+.main_menu li {
+    margin-left: 25px;
+    display: inline-block;
+    color: #9f9f9f;
+}
+
+.main_menu li a {    
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #9f9f9f;
+    padding: 0px 10px 32px 10px;
+}
+
+.main_menu li a:hover {
+    color: #3070a8;
+    border-bottom: 6px #3070a8 solid;
+}
+
+.main_menu li a:active {
+    border-bottom: 6px #ee8129 solid;
+    color: #ee8129;
+}
+
+
+
+        /*BANNER*/
+
+.banner {
+    width: 1400px;
+    height: 455px;
+    background-image: url(images/main_banner_bg.jpg);
+    background-repeat:no-repeat;
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    padding-top: 130px;
+}
+
+.banner h2 {
+    font-size: 34px;
+}
+
+.banner p{
+    margin: 20px auto;
+    width: 580px;
+    font-style: italic;
+}
+
+.banner .under {
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    text-transform: uppercase;
+    margin-top:5px;
+    font-size: 56px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.banner .button {
+    color: #fff;
+    display: block;
+    margin: 50px auto;
+    padding: 15px 25px;
+    width: 150px;
+    border: 1px  solid rgba(255, 255, 255, .2);
+}
+
+/*----------------OFFERS BEGIN------------------------------*/
+
+
+
+.offers {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+
+
+.offers h2 {
+    margin: 30px 0px 30px 0px;
+    text-transform: uppercase;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-size: 26px;
+    color: #454545;
+
+}
+/*--------------------*/
+
+.price_container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.blue {
+    position: relative;
+    display: inline-block;
+    background-color: #4ac1d1;
+    border-radius: 6px;
+    width: 290px;
+    padding: 0px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5)
+}
+.blue.main.button {
+     background-color: #2028e8;
+    
+}
+
+.orange {
+    z-index: 1;
+    position: relative;
+    margin: -5px;
+    vertical-align: 20px;
+    display: inline-block;
+    background-color: #ee8129;
+    border-radius: 6px;
+    width: 290px;
+    padding: 0px 3px 3px 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.aqua {
+    position: relative;
+    display: inline-block;
+    background-color: #62d1a7;
+    border-radius: 6px;
+    width: 290px;
+    padding: 0px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5)
+}
+
+
+/*-----------------*/
+
+.offers .header {
+    padding: 30px 0px 25px 0px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0px;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-weight: bold;
+}
+
+.offers .main {
+    background: #fff;
+    padding: 15px 0px 25px 0px;
+    margin: 0px;
+}
+
+.offers .title {
+    font-family: monospace; 
+    font-size: 20px;
+    padding: 5px 0px 0px 0px;
+    color: #324555;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+
+.offers .price {
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    font-size: 60px;
+    font-weight: bold;
+    color: #324555;
+    padding: 15px 0px 20px 0px;
+}
+
+.pricetext:before {
+    content: '$';
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+    
+        
+}
+.pricetext:after {
+    content: 'Monthly';
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 3px;
+}
+
+.offers li{
+    list-style-type: none;
+}
+
+.list li{
+    background-color: #e4f0fc;
+    color: #979ca3;
+    font-size: 14px;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    text-align: left;
+    margin: 1px 15px ;
+    padding: 7px 25px;
+}
+
+.list li:nth-child(2n){
+    background-color: #f5f5f6;
+}
+
+.list li:before {
+    content: " ";
+    display: block;
+    height: 15px;
+    width: 10px;
+    background: url(images/mark.png) no-repeat;
+    float: left;
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 15px;
+}
+
+.list {
+    margin: 0px 0px 15px 0px;
+}
+
+.offers a.button{
+    display: block;
+    text-decoration: none;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    background-color: #ee8129;
+    border-radius: 5px;
+    padding: 10px 0px 0px 0px;
+    height: 25px;
+    width: 250px;
+    margin: 0px auto 0px ;
+    border-color: #b3560b;
+    border-style: solid;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+
+.button_blue {
+    display: block;
+    text-decoration: none;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    background-color: #4866e2;
+    border-radius: 5px;
+    padding: 10px 0px 0px 0px;
+    height: 25px;
+    width: 250px;
+    margin: 0px auto 0px ;
+    border-color: #1f2d64;
+    border-style: solid;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    
+}
+ .offers a.button:hover {
+    text-shadow: 1px 1px 1px #fcfcb3;
+}
+
+.button_blue:hover {
+    text-shadow: 1px 1px 1px #fcfcb3;
+}
+
+/*----------------OFFERS END------------------------------*/
+
+
+
+
+
+
+/*----------------reviews BEGIN------------------------------*/
+
+.reviews_container {
+    margin-top: 10px;
+    text-align: center;
+    background-image: url(images/clients_bacrgroumd.jpg);
+    width: 100%;
+    display: inline-block;
+    padding: 50px 0px;
+
+}
+
+
+
+
+
+.reviews_container h2 {
+    text-transform: uppercase;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    color: #4866e2;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.reviews_container h2 span{
+    color: #ee8129;
+}
+
+
+
+
+
+
+.client {
+    display: inline-block;
+    margin: 20px 30px 30px 30px;
+    position: relative;
+}
+
+.client_photo{
+    margin: 0px 20px 0px 0px;
+}
+
+.client_review {
+    text-align: left;
+    width: 300px;
+    padding: 5px 15px 15px 15px;
+    display: inline-block;
+    vertical-align:top;
+    background-color: #fff;
+    position: relative;
+}
+
+.client_review:before {
+    left: -20px;
+    top: 32px;
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-right-color: #fff;
+}
+
+
+.review_header {
+    position: relative;
+    border-bottom: 1px dotted #000;
+    padding: 7px;
+}
+
+.client_name {
+    position: relative;
+}
+.client_name:before {
+    content: '-';
+    position: relative;
+    left: -7px;
+    top: -1px;
+    color: #3070a8;
+}
+
+.client_status {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+}
+
+.client_name,
+.client_status {
+    font-family: Trebuchet MS, Arial;
+    font-style: italic;
+    color: #3070a8;
+    font-size: 13px;
+}
+
+.client_review p{
+    padding: 4px 0px 4px 0px;
+    font-family: Trebuchet MS, Arial;
+    color: #535353;
+    font-size: 13px;
+    line-height: 1.6em;    
+}
+
+/*----------------reviews END------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
