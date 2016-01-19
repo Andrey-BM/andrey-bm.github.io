@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+body {
+/*    padding: 20px;*/
+}
+.container {
+    width: 100%;
+    white-space: nowrap;
+    
+}
+
+.block_comment {
+    outline: 1px solid #f00;
+    width: 50%;
+    padding-right: 20px;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    margin-top: 30px;
+
+}
+
+.block_comment:nth-child(even) {
+    padding-left: 20px;
+    
+}
+
+.block_comment img {
+    display: inline-block;
+}
+
+.block_comment h3 {
+    font-size: 22px;
+    color: #637f83;
+}
+
+p.comment{
+    font-size: 14px;
+    color: #959595;
+}
+
+p.comment:after {
+    content: ' + more';
+    color: #e4551d;
+}
