@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+    min-width: 600px;
+    max-width: 1200px;
+}
+
+h1 {
+    margin-top: 50px;
+    color: #2d3950;
+    font: 400 41px Lato;
+    font-family: Lato, sans-serif;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 80px;
+    color: #909090;
+    font: 400 15px / 23px Lato;
+    font-family: Lato, sans-serif;
+}
+
+/*-------------------------------------------------------------*/
+
+.main_container div {
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    width: 360px;
+    height: 260px;
+    
+}
+
+.main_container img {
+    display: block;
+    position: absolute;
+    width: 358px;
+    height: 260px;
+    margin: 0px;
+    top: 15px;
+}
+
+/*-------------------------block_1-----------------------------*/
+.main_container .hover_img_block_1 {
+    display: none;
+    background: url(images/BG.png) no-repeat;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    margin: 0px;
+    top: 15px;
+    padding-top: 108px;
+}
+
+.main_container .hover_img_block_1 .zoom {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Zoom.png) no-repeat;
+
+}
+
+.main_container .hover_img_block_1 .zoom:hover {
+    background-color: #6db6ff;
+}
+
+.main_container .hover_img_block_1 .link {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Normal.png) no-repeat;
+}
+
+.main_container .hover_img_block_1 .link:hover{
+    background-color: #6db6ff;
+}
+
+.photo1:hover .hover_img_block_1 {
+   display: block;
+}
+/*-------------------------block_1-----------------------------*/
+
+
+
+/*-------------------------block_2-----------------------------*/
+.main_container .hover_img_block_2 {
+    display: none;
+    background: url(images/BG.png) no-repeat;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    margin: 0px;
+    top: 15px;
+    padding-top: 108px;
+}
+
+.main_container .hover_img_block_2 .zoom {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Zoom.png) no-repeat;
+
+}
+
+.main_container .hover_img_block_2 .zoom:hover {
+    background-color: #6db6ff;
+}
+
+.main_container .hover_img_block_2 .link {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Normal.png) no-repeat;
+}
+
+.main_container .hover_img_block_2 .link:hover{
+    background-color: #6db6ff;
+}
+
+.photo2:hover .hover_img_block_2 {
+   display: block;
+}
+/*-------------------------block_2-----------------------------*/
+
+
+
+
+/*-------------------------block_3-----------------------------*/
+.main_container .hover_img_block_3 {
+    display: none;
+    background: url(images/BG.png) no-repeat;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    margin: 0px;
+    top: 15px;
+    padding-top: 108px;
+}
+
+.main_container .hover_img_block_3 .zoom {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Zoom.png) no-repeat;
+
+}
+
+.main_container .hover_img_block_3 .zoom:hover {
+    background-color: #6db6ff;
+}
+
+.main_container .hover_img_block_3 .link {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Normal.png) no-repeat;
+}
+
+.main_container .hover_img_block_3 .link:hover{
+    background-color: #6db6ff;
+}
+
+.photo3:hover .hover_img_block_3 {
+   display: block;
+}
+/*-------------------------block_3-----------------------------*/
+
+
+
+/*-------------------------block_4-----------------------------*/
+.main_container .hover_img_block_4 {
+    display: none;
+    background: url(images/BG.png) no-repeat;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    margin: 0px;
+    top: 15px;
+    padding-top: 108px;
+}
+
+.main_container .hover_img_block_4 .zoom {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Zoom.png) no-repeat;
+
+}
+
+.main_container .hover_img_block_4 .zoom:hover {
+    background-color: #6db6ff;
+}
+
+.main_container .hover_img_block_4 .link {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Normal.png) no-repeat;
+}
+
+.main_container .hover_img_block_4 .link:hover{
+    background-color: #6db6ff;
+}
+
+.photo4:hover .hover_img_block_4 {
+   display: block;
+}
+/*-------------------------block_4-----------------------------*/
+
+
+
+/*-------------------------block_5-----------------------------*/
+.main_container .hover_img_block_5 {
+    display: none;
+    background: url(images/BG.png) no-repeat;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    margin: 0px;
+    top: 15px;
+    padding-top: 108px;
+}
+
+.main_container .hover_img_block_5 .zoom {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Zoom.png) no-repeat;
+
+}
+
+.main_container .hover_img_block_5 .zoom:hover {
+    background-color: #6db6ff;
+}
+
+.main_container .hover_img_block_5 .link {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Normal.png) no-repeat;
+}
+
+.main_container .hover_img_block_5 .link:hover{
+    background-color: #6db6ff;
+}
+
+.photo5:hover .hover_img_block_5 {
+   display: block;
+}
+/*-------------------------block_5-----------------------------*/
+
+
+
+/*-------------------------block_6-----------------------------*/
+.main_container .hover_img_block_6 {
+    display: none;
+    background: url(images/BG.png) no-repeat;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    margin: 0px;
+    top: 15px;
+    padding-top: 108px;
+}
+
+.main_container .hover_img_block_6 .zoom {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Zoom.png) no-repeat;
+
+}
+
+.main_container .hover_img_block_6 .zoom:hover {
+    background-color: #6db6ff;
+}
+
+.main_container .hover_img_block_6 .link {
+    display: inline-block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background: url(images/Normal.png) no-repeat;
+}
+
+.main_container .hover_img_block_6 .link:hover{
+    background-color: #6db6ff;
+}
+
+.photo6:hover .hover_img_block_6 {
+   display: block;
+}
+/*-------------------------block_6-----------------------------*/
