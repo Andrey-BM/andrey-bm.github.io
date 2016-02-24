@@ -1,0 +1,98 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ddd;
+    font: 15px arial, sans-serif;
+}
+
+div.lang {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.lang div {
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background-color: #bfbfbf
+}
+
+.lang div a {
+    color: #000;
+    text-decoration: none;
+    background-color: #bfbfbf
+}
+
+nav {
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: black;
+    padding: 3px;
+    border: 1px solid #000;
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px gray;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+    background-color: black;
+    color: #fff;
+}
+
+/*-------------------------------------*/
+
+section {
+    margin: 40px 0;
+}
+
+div.content {
+    
+    padding: 30px 250px 30px 30px;
+    width: 50%;
+    margin: 2% 25%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px gray;
+}
+
+div.content p {
+    text-indent: 20px;
+}
+
+#content_1 {
+    padding: 30px 250px 30px 30px;
+    background-image: url(img/key_h_bg_1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#content_2{
+    padding: 30px 30px 30px 250px;
+    background-image: url(img/key_h_bg_2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#content_3{
+    padding: 30px 250px 30px 30px;
+    background-image: url(img/key_h_bg_3.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
