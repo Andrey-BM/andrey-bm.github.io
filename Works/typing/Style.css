@@ -8,7 +8,7 @@ header, section, footer, aside, nav, main, article, figure {
 }
 
 body {
-    background-color: #ddd;
+/*    background-color: #ddd;*/
     font: 15px arial, sans-serif;
 }
 
@@ -50,19 +50,38 @@ nav li {
 }
 
 nav a {
-    color: black;
-    padding: 3px;
-    border: 1px solid #000;
+    text-shadow: 1px 1px 2px black, 0 0 1em #000000;
+    color: #fff;
+    margin: 0px 30px 0px 30px;
+    border-bottom: 1px solid #fff;
     text-decoration: none;
-    background-color: #fff;
-    box-shadow: 2px 2px 2px gray;
 }
 
 nav a:hover {
-    border: 1px solid #fff;
-    background-color: black;
+    text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+
+.headerdiv h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 1em #000000;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 50px;
     color: #fff;
 }
+
+.headerdiv h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 1em #000000;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 30px;
+    color: #fff
+}
+
 
 /*-------------------------------------*/
 
@@ -76,7 +95,7 @@ div.content {
     width: 50%;
     margin: 2% 25%;
     background-color: #fff;
-    box-shadow: 5px 5px 5px gray;
+/*    box-shadow: 5px 5px 5px gray;*/
 }
 
 div.content p {
@@ -85,9 +104,6 @@ div.content p {
 
 #content_1 {
     padding: 30px 250px 30px 30px;
-    background-image: url(img/key_h_bg_1.png);
-    background-repeat: no-repeat;
-    background-position: right center;
 }
 
 #content_2{
@@ -103,4 +119,46 @@ div.content p {
     background-repeat: no-repeat;
     background-position: right center;
 }
+
+
+/*-------------------------------------*/
+
+
+#video-container {
+    height: 500px;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+video {
+    top:-100px;
+	left:0px;
+	width:100%;
+	position:absolute;
+	z-index:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
