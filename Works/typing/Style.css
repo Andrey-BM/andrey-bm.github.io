@@ -38,25 +38,25 @@ div.lang {
 }
 
 .btn_ru {
-    background-image: url(img/icons/rus.png);
+    background: url(img/icons/rus.gif)  0 0;
     width: 46px;
-    height: 33px;
+    height: 32px;
 }
 .btn_ru:hover {
-    background-image: url(img/icons/rus_hover.png);
+    background: url(img/icons/rus.gif) 0px -33px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-    transition-duration: 0.2s;
+/*    transition-duration: 0.2s;*/
 }
 
 .btn_eng {
-    background-image: url(img/icons/eng.png);
+    background: url(img/icons/eng.gif) 0 0;
     width: 46px;
-    height: 33px;
+    height: 32px;
 }
 .btn_eng:hover {
-    background-image: url(img/icons/eng_hover.png);
+    background: url(img/icons/eng.gif) 0px -33px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-    transition-duration: 0.2s;
+/*    transition-duration: 0.2s;*/
 }
 
 
@@ -245,6 +245,56 @@ video {
 }
 
 
+/*-------------------headline_begin------------------*/
+
+#headline {
+    text-align: center;
+    padding: 80px 10px 80px 10px;
+    
+}
+
+#headline h3 {
+    font-size: 30px;
+}
+
+#headline img {
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: 32px;
+}
+
+#headline .text{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    padding: 50px 10px 10px 130px ;
+}
+
+#headline span{
+    font-size: 18px;
+    
+}
+
+/*-------------------headline_end------------------*/
+
+
+
+/*-------------------advantages_begin------------------*/
+
+#advantages {
+    text-align: center;
+}
+
+#advantages .box {
+    padding: 50px 20px 50px 20px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid #898989;
+}
+
+/*-------------------advantages_end------------------*/
 
 
 
