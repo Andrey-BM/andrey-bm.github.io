@@ -215,6 +215,8 @@ video {
 }
 
 .content_line p {
+    margin: 0 auto;
+    width: 940px;
     padding-top: 150px;
     font-size: 40px;
     color: #fff;
@@ -234,6 +236,8 @@ video {
 }
 
 .content_line2 p {
+    margin: 0 auto;
+    width: 940px;
     padding-top: 150px;
     font-size: 40px;
     color: #fff;
