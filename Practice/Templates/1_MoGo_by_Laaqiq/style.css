@@ -1,0 +1,115 @@
+body {
+
+}
+
+
+header {
+    height: 1000px;
+    /*padding: 0px 100px 0px 100px;*/
+    background-image: url(img/header_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.top {
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin: 50px 0px 0px 0px;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+    margin: 5px 25px 5px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+nav ul a:hover {
+    color: #fce38a;
+    border-bottom: 3px #fce38a solid;
+}
+
+nav ul {
+    float: right;
+    margin: 50px 0px 0px 0px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.shopping_cart {
+    float: right;
+    margin: 50px 20px 10px 20px;
+}
+.search {
+    float: right;
+    margin: 50px 20px 10px 20px;
+}
+
+
+.kaushanscript {    
+    color: #fff;
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+    padding: 230px 10px 10px 10px;
+    margin-bottom: 50px;
+}
+
+.montserrat {
+    color: #fff;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif, bold;
+}
+
+.headerline {
+    width: 60px;
+    height: 4px;
+    background-color: #fff;
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
+
+.headerbutton {
+    color: #fff;
+    font-size: 14;
+    font-family: 'Montserrat', sans-serif, bold;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px #fff solid;
+    padding: 10px 30px 10px 30px;
+}
+
+.btm_list {
+    margin-top: 120px;
+    list-style-type: decimal;
+}
+
+
+.btm_list li {
+    display: inline-block;
+}
+
+.btm_list li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    padding: 10px 200px 10px 10px;
+}
