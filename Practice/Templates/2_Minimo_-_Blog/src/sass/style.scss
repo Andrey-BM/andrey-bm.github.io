@@ -1,0 +1,30 @@
+@import "modules/reset";
+/*col*/
+/*colors*/
+
+$main-text-color: #626262;
+$category-text-color: #b4ad9e;
+
+/*colors*/
+
+/*fonts*/
+
+$logo-font: 'Inconsolata', monospace;
+$main-font: 'Playfair Display', serif;
+$category-font: 'Ubuntu', sans-serif;
+
+/*fonts*/
+
+/*.wrapper {
+    width: 1200px;
+    padding: 70px;
+    margin: 0 auto;
+}*/
+
+@import "blocks/header";
+@import "blocks/first-article";
+@import "blocks/single-article";
+@import "blocks/short-article";
+@import "blocks/sign-up-line";
+@import "blocks/load-more";
+@import "blocks/footer-box";

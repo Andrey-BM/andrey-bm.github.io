@@ -1,0 +1,27 @@
+/*-----mixin-----*/
+.box-box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+/*-----mixin-----*/
+.box {
+  background-color: #5b83ad;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 10px;
+  width: 20px;
+  width: 30px;
+  width: 40px;
+  width: 50px;
+}
+.box2 {
+  background-color: #b0d8ff;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}

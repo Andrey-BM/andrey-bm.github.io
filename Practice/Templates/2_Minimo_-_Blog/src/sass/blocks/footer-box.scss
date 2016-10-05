@@ -1,0 +1,69 @@
+/*footer-box*/
+
+.footer-box {
+    padding: 35px 150px 0px 150px;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+.conditions {
+    display: inline-block;
+}
+.conditions__terms {
+    margin: 0 10px 0 10px;
+    color: $main-text-color;
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: bold;
+    &:hover{
+    }
+}
+.conditions__privacy {
+    margin: 0 10px 0 10px;
+    color: $main-text-color;
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: bold;
+    &:hover{
+    }
+}
+.social {
+    display: inline-block;
+    float: right;
+}
+.follow {
+    color: $main-text-color;
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: bold;
+    &:hover{
+    }
+}
+.social__facebook {
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(/dist/img/facebook.png) center no-repeat;
+    &:hover{
+    }
+}
+.social__twitter {
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(/dist/img/twitter.png) center no-repeat;
+    &:hover{
+    }
+}
+.social__instagram {
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(/dist/img/instagram.png) center no-repeat;
+    &:hover{
+    }
+}
+
+/*footer-box*/

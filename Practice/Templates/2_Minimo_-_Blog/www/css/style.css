@@ -1,0 +1,370 @@
+a {
+  text-decoration: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*col*/
+/*colors*/
+/*colors*/
+/*fonts*/
+/*fonts*/
+/*.wrapper {
+    width: 1200px;
+    padding: 70px;
+    margin: 0 auto;
+}*/
+/*header*/
+header {
+  margin: 0 auto;
+  height: 25px;
+  width: 1070px;
+  margin-bottom: 60px;
+  margin-top: 70px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo__title {
+  color: #000;
+  font-family: "Inconsolata", monospace;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.header-menu {
+  float: right;
+}
+
+.header-menu__item {
+  display: inline-block;
+  padding-left: 110px;
+}
+
+.header-menu__link {
+  color: #626262;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+/*header*/
+/*first-article*/
+.first-article {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.first-article__image {
+  border: 2px #000;
+  margin: 0 auto;
+  padding-bottom: 95px;
+}
+
+.first-article__textbox {
+  width: 900px;
+  padding: 0 80px;
+  margin-bottom: 130px;
+}
+
+.first-article__category {
+  display: block;
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.first-article__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+}
+
+.first-article__text {
+  margin-bottom: 50px;
+  color: #626262;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  line-height: 24px;
+}
+
+.first-article__comment-button {
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+
+/*first-article*/
+/*single-article*/
+.single-article {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.single-article__image {
+  width: 900px;
+  border: 2px #000;
+  margin: 0 auto;
+  padding-bottom: 95px;
+}
+
+.single-article__image_main {
+  width: 1060px;
+  border: 2px #000;
+  margin: 0 auto;
+  padding-bottom: 95px;
+}
+
+.single-article__textbox {
+  width: 900px;
+  padding: 0 80px;
+  margin-bottom: 130px;
+}
+
+.single-article__category {
+  display: block;
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.single-article__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+}
+
+.single-article__text {
+  margin-bottom: 50px;
+  color: #626262;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  line-height: 24px;
+}
+
+.single-article__quote {
+  display: block;
+  margin: 0 auto;
+  width: 850px;
+  font-style: italic;
+  margin-bottom: 50px;
+  color: #626262;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  line-height: 20px;
+}
+
+.single-article__comment-button {
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+
+/*single-article*/
+/*short-article*/
+.short-articles-box {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.short-article {
+  width: 420px;
+}
+
+.short-article__image {
+  width: 420px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.short-article__category {
+  display: block;
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.short-article__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+}
+
+.short-article__text {
+  margin-bottom: 130px;
+  color: #626262;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  line-height: 24px;
+}
+
+/*short-article*/
+/*sign-up-line*/
+.sign-up-line {
+  height: 290px;
+  background-color: #f0f0f0;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.sign-up-line__title {
+  padding: 70px;
+  font-size: 30px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+}
+
+/*sign-up-line*/
+/*load-more*/
+.load-more {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding: 20px 35px;
+  background-color: #fff;
+  border: #000 solid 1px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+.load-more:hover {
+  border: #414141 solid 1px;
+  background-color: #e2e2e2;
+}
+
+/*load-more*/
+/*footer-box*/
+.footer-box {
+  padding: 35px 150px 0px 150px;
+  height: 100px;
+  background-color: #f0f0f0;
+}
+
+.conditions {
+  display: inline-block;
+}
+
+.conditions__terms {
+  margin: 0 10px 0 10px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.conditions__privacy {
+  margin: 0 10px 0 10px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.social {
+  display: inline-block;
+  float: right;
+}
+
+.follow {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.social__facebook {
+  margin: 0 10px 0 10px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(/dist/img/facebook.png) center no-repeat;
+}
+
+.social__twitter {
+  margin: 0 10px 0 10px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(/dist/img/twitter.png) center no-repeat;
+}
+
+.social__instagram {
+  margin: 0 10px 0 10px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(/dist/img/instagram.png) center no-repeat;
+}
+
+/*footer-box*/

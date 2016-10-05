@@ -1,0 +1,27 @@
+body {
+  color: #555;
+  background: #888;
+}
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin: 100px;
+}
+.box2 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin: 100px;
+}

@@ -7,6 +7,11 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Ubuntu" rel="stylesheet"> 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <!--polymer-->
+     <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="nav-element/nav-element.html">
+    <!--polymer-->
     <title>Minimo Blog</title>
 </head>
 <body>
@@ -15,14 +20,9 @@
             <div class="logo">
                <a class="logo__title" href="">Minimø</a>
             </div>
-            <div class="header-menu">
-                <ul class="header-menu__list">
-                    <li class="header-menu__title"><a class="header-menu__link" href="">Lifestyle</a></li>
-                    <li class="header-menu__title"><a class="header-menu__link" href="">Photodiary</a></li>
-                    <li class="header-menu__title"><a class="header-menu__link" href="">Music</a></li>
-                    <li class="header-menu__title"><a class="header-menu__link" href="">Travel</a></li>
-                </ul>
-            </div>
+            <!--nav-menu-->
+            <nav-element></nav-element>
+            <!--nav-menu-->
         </header>
         <article class="first-article">
             <img src="/img/first-article-photo.jpg" alt="" class="first-article__image">
@@ -33,6 +33,8 @@
             <a class="first-article__comment-button" href="">Leave a  comment</a>
             </div>
         </article>
+        <nav-element></nav-element>
     </div>
+    <nav-element></nav-element>
 </body>
 </html>

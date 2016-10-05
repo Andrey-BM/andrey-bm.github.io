@@ -25,22 +25,7 @@
     letter-spacing: 5px;
 }
 
-.header-menu {
-    float: right;
-}
 
-.header-menu__title {
-    display: inline-block;
-    padding-left: 110px;
-}
-
-.header-menu__link{
-    color: #626262;
-    font-size: 15px;
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-}
 
 .first-article {
     width: 1060px;

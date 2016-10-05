@@ -1,0 +1,55 @@
+$mycolor: #3c883c;
+$box-width: 100px;
+
+@mixin gradient($color1, $color2, $color3) {
+   
+    background: $color1; /* Old browsers */
+    background: -moz-linear-gradient(top,  $color1 0%, $color2 44%, $color3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  $color1 0%,$color2 44%,$color3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  $color1 0%,$color2 44%,$color3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.box2 {
+    @include gradient (#7abcff, #60abf8, #4096ee);
+    width: $box-width * 2;
+    height: $box-width + 50;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+@mixin mybutton($width, $height, $text-size, $text-color) {
+    width: $width;
+    height: $height;
+    line-height: height;
+    text-align: center;
+    font-size: $text-size;
+    color: $text-color;
+    border: 1px solid black;
+    display: block;
+    text-decoration: none;
+}
+
+.button{
+    @include mybutton(200px, 80px, 60px, $mycolor);
+    margin: 0 auto;
+    
+    &:hover {
+        background-color: orange;
+    }
+    
+    &:active {
+        background-color: red;
+    }
+}
+
+.box {
+    background-color: $mycolor;
+    width: $box-width * 2;
+    height: $box-width + 50;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}

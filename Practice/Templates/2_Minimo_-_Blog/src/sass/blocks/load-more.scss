@@ -1,0 +1,19 @@
+/*load-more*/
+
+.load-more {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 20px 35px;
+    background-color: #fff;
+    border: #000 solid 1px;
+    color: $main-text-color;
+    font-family: $main-font;
+    font-size: 20px;
+    &:hover{
+       border: #414141 solid 1px; 
+        background-color: #e2e2e2;
+    }
+}
+
+/*load-more*/

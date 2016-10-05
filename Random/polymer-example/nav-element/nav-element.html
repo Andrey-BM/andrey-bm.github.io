@@ -1,0 +1,36 @@
+<dom-module id="nav-element">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+            .header-menu {
+                float: right;
+            }
+
+            .header-menu__item {
+                display: inline-block;
+                padding-left: 110px;
+            }
+
+            .header-menu__link{
+                color: #626262;
+                font-size: 15px;
+                font-family: 'Playfair Display', serif;
+                text-transform: uppercase;
+                letter-spacing: -1px;
+            }
+        </style>
+        <div class="header-menu">
+                <ul class="header-menu__list">
+                    <li class="header-menu__item"><a class="header-menu__link" href="">Lifestyle</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="">Photodiary</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="">Music</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="">Travel</a></li>
+                </ul>
+            </div>
+    </template>
+</dom-module>
+    <script>
+        Polymer({is:'nav-element'});
+    </script>
